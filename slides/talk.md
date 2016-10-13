@@ -6,6 +6,9 @@
 # 👨👩 + JS = 😐 ? <!-- .element: class="fragment" -->
 # 👨👩 + JS = 😍 ? <!-- .element: class="fragment" -->
 
+Note:
+- Hands up if...
+
 ---
 
 # Overview
@@ -16,7 +19,9 @@
 - Why TypeScript? <!-- .element: class="fragment" -->
 - 👍 & 👎 <!-- .element: class="fragment" -->
 - Demo <!-- .element: class="fragment" -->
-- Projects Using TypeScript <!-- .element: class="fragment" -->
+
+Note:
+- First up...
 
 ---
 
@@ -39,12 +44,11 @@
 
 ## Early JS Design Goals
 
-"HTML needed a language that was **easy to use**, written directly **in the Web page markup**. We aimed to provide a **"glue language"** for the Web designers and part time programmers who were building Web content from components such as images, plugins, and Java applets. We saw Java as the "component language", where the glue programmers -- the Web page designers -- would assemble components and automate their interactions using JS." - Brendan Eich
+<small>The impetus was the belief on the part of at least Marc Andreessen and myself, along with Bill Joy of Sun, that HTML needed a "scripting language", a programming language that was **easy to use** by amateurs and novices, where the code could be **written directly in source form as part of the Web page markup**. We aimed to provide a **"glue language"** for the Web designers and part time programmers who were building Web content from components such as images, plugins, and Java applets. We saw Java as the "component language" used by higher-priced programmers, where the glue programmers -- the Web page designers -- would assemble components and automate their interactions using JS. - Brendan Eich</small>
 
 Note:
 - Designed to be forgiving
-- Tries to keep running
-- ~1000 lines of code
+- Tries to keep running. e.g. 5 + 'George' = '5George'
 
 ---
 
@@ -53,6 +57,11 @@ Note:
 > "A typed superset of JavaScript that compiles to plain JavaScript" - [TypeScript](https://www.typescriptlang.org)
 
 > "JavaScript that scales" - [TypeScript](https://www.typescriptlang.org)
+
+Note:
+- Microsoft describes TypeScript as...
+ - types are...
+ - superset 
 
 ---
 
@@ -84,8 +93,8 @@ Note:
 Note:
 - Gradual typing
   - Allows you to gradually add types to your code. Don't need to rewrite your projects
-  - Lets you add types where they're needed
-- If a library has typings, TypeScript can work with it.
+  - Add types where they're needed
+- If a library has definitions, TypeScript can work with it
 - As you'll see in a moment, dev tooling is 👍
 
 ---
@@ -93,7 +102,7 @@ Note:
 ## 👎
 
 - Gradual typing 🤔 <!-- .element: class="fragment" -->
-- Doesn't work with many popular libraries! <!-- .element: class="fragment" -->
+- Doesn't work with some libraries <!-- .element: class="fragment" -->
 
 Note:
 - Gradual typing
