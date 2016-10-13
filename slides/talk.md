@@ -60,8 +60,8 @@ Note:
 
 Note:
 - Microsoft describes TypeScript as...
- - types are...
- - superset 
+ - Types: Declare a variable
+ - superset
 
 ---
 
@@ -72,9 +72,10 @@ Note:
 
 Note:
 - TypeScript smoothes over some rough edges
-- Additive only
+- Why might it need to do that?
+  - Additive only
   - Foot guns will always be there
-  - See http://www.warnerbros.com/archive/spacejam/movie/jam.htm
+  - Has one huge advantage. See http://www.warnerbros.com/archive/spacejam/movie/jam.htm
 
 ---
 
